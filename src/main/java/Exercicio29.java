@@ -13,19 +13,19 @@ public class Exercicio29 {
       Veiculo onibus = new Veiculo();
 
       // READ
-      System.out.print("Fusca K: ");
+      System.out.print("Fusca K   : ");
       fusca.setKilometroPercorrido(sc.nextDouble());
-      System.out.print("Fusca L: ");
+      System.out.print("Fusca L   : ");
       fusca.setLitrosGastos(sc.nextDouble());
 
-      System.out.print("Trator K: ");
+      System.out.print("\nTrator K  : ");
       trator.setKilometroPercorrido(sc.nextDouble());
-      System.out.print("Trator L: ");
+      System.out.print("Trator L  : ");
       trator.setLitrosGastos(sc.nextDouble());
 
-      System.out.print("Onibus K: ");
+      System.out.print("\nOnibus K  : ");
       onibus.setKilometroPercorrido(sc.nextDouble());
-      System.out.print("Onibus L: ");
+      System.out.print("Onibus L  : ");
       onibus.setLitrosGastos(sc.nextDouble());
 
       // OUTPUT
